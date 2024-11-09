@@ -1,0 +1,27 @@
+thead{
+    background-color: blue;
+    color: white;
+}
+thead tr th{
+   padding: 10px;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+tbody{
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+}
+tbody tr td{
+    padding: 20px;
+}
+.price{
+    text-align: right;
+    background-color: cadetblue;
+}
+#name1{
+    color: rgb(50, 3, 189);
+}
+#name2{
+    color: rgb(247, 251, 3);
+}

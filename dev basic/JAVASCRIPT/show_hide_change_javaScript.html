@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function show(){
+            document.getElementById('panel').style.display='inline';
+        }
+        function hide(){
+            document.getElementById('panel').style.display='none';
+        }
+        function changeText(){
+            document.getElementById('h1').innerHTML='Ball';
+        }
+        function changeBg(){
+            document.getElementById('h1').style.backgroundColor='red';
+        }
+    </script>
+</head>
+<body>
+    <button onclick="show()">show</button>
+    <button onclick="hide()">hide</button>
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="changeBg()">Change Bg</button>
+    <div id="panel">
+        <h1 id="h1">Hello World</h1>
+        <h2>Hello World</h2>
+        <h3>Hello World</h3>
+        <h4>Hello World</h4>
+        <h5>Hello World</h5>
+        <h6>Hello World</h6>
+    </div>
+  
+</body>
+</html>
